@@ -1,0 +1,90 @@
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    gap: 8px;
+}
+
+.feedback-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: auto;
+}
+
+.feedback-form label input {
+    height: 40px;
+    border: 1px solid rgba(128, 128, 128, 1);
+    border-radius: 4px;
+}
+
+.feedback-form button {
+    margin-top: 8px;
+    width: 86px;
+}
+
+.feedback-form input:hover {
+    border-color: #000;
+}
+
+.feedback-form input:focus {
+    border-color: rgba(128, 128, 128, 1);
+    color: #000;
+}
+
+.feedback-form textarea {
+    border: 1px solid rgba(128, 128, 128, 1);
+    border-radius: 4px;
+}
+
+.feedback-form textarea:hover {
+    border-color: #000;
+}
+
+.feedback-form textarea:focus {
+    border-color: rgba(128, 128, 128, 1);
+    color: #000;
+    outline: none;
+}
+
+
+
+
+button {
+    height: 40px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(78, 117, 255, 1);
+    width: 95px;
+}
+
+button:hover {
+    background-color: rgba(108, 140, 255, 1);
+}
+
+input {
+    border: 1px solid rgba(128, 128, 128, 1);
+}
+
+input:hover {
+    border-color: rgba(0, 0, 0, 1);
+}
+
+input:active,
+input:focus {
+    border: 1px solid rgba(128, 128, 128, 1);
+    outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="range"] {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}

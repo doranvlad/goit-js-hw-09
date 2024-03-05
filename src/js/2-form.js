@@ -3,7 +3,7 @@ const localStorageKey = "feedback-form-state";
 
 const localStorageObj = JSON.parse(localStorage.getItem(localStorageKey));
 
-if (localStorage.length != 0) {
+if (localStorageObj != null) {
     form.elements.email.value = localStorageObj.email ?? "";
     form.elements.message.value = localStorageObj.message ?? "";
 }
